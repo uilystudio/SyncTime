@@ -1,0 +1,16 @@
+@import "tailwindcss" source(none);
+@source "../app";
+@source "../components";
+@source "../lib";
+
+@theme inline {
+  --color-background: #0c1019;
+  --color-foreground: #edf0f8;
+  --color-surface: #131923;
+  --color-border: #262d3a;
+  --color-muted: #9ba5b9;
+  --color-primary: #a492f8;
+  --color-success: #76d7b3;
+  --font-sans: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-geist-mono);
+}
